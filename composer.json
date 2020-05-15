@@ -1,0 +1,32 @@
+{
+	"name": "tkstarir/launchpad_framework",
+	"description": "TkStar LuanchPad Framwork Pure",
+	"type": "framwork",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "TkStar Company",
+			"email": "info@tkstar.ir"
+		}
+	],
+	"require": {
+		"php": ">=7.2",
+		"ext-json": "*",
+		"ext-openssl": "*",
+		"ext-mbstring": "*",
+		"ext-mysqli": "*",
+		"ext-PDO": "*",
+		"ext-Reflection": "*",
+		"ext-hash": "*",
+		"tkstarir/dumper": "^1.0",
+		"tkstarir/jdc": "^1.0"
+	},
+	"support": {
+		"issues": "https://github.com/laravel/launchpad_framework/issues",
+		"source": "https://github.com/laravel/launchpad_framework"
+	},
+	"config": { "sort-packages": true },
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": { "files": ["App.php"] }
+}

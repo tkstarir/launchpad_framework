@@ -1,0 +1,104 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9e6cef3138d724846dd37a7fd7f70535",
+    "packages": [
+        {
+            "name": "tkstarir/dumper",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tkstarir/TkStarDump.git",
+                "reference": "4abd21637dbb2d9c9941f711f233073520a79cbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tkstarir/TkStarDump/zipball/4abd21637dbb2d9c9941f711f233073520a79cbe",
+                "reference": "4abd21637dbb2d9c9941f711f233073520a79cbe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "plugin",
+            "autoload": {
+                "files": [
+                    "src/TkStarDump.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TkStar Company",
+                    "email": "info@tkstar.ir"
+                }
+            ],
+            "description": "Clone of \"var_dump\" Function for TkStar LaunchPad Framework",
+            "keywords": [
+                "TDD",
+                "tkstar_dump",
+                "var_dump"
+            ],
+            "time": "2020-04-17T09:54:43+00:00"
+        },
+        {
+            "name": "tkstarir/jdc",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tkstarir/TkStarJDC.git",
+                "reference": "c63abef682d573f6371e545c06090203ac2d9079"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tkstarir/TkStarJDC/zipball/c63abef682d573f6371e545c06090203ac2d9079",
+                "reference": "c63abef682d573f6371e545c06090203ac2d9079",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "plugin",
+            "autoload": {
+                "files": [
+                    "src/TkStarJDC.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TkStar Company",
+                    "email": "info@tkstar.ir"
+                }
+            ],
+            "description": "TkStar Jalali Date Class + Occasions and Holidays for LuanchPad Framework",
+            "keywords": [
+                "jalali date function",
+                "jdc",
+                "jdf",
+                "tkstarjdc"
+            ],
+            "time": "2020-04-17T21:39:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.2"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
