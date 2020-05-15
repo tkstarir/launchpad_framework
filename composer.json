@@ -1,6 +1,7 @@
 {
 	"name": "tkstarir/launchpad_framework",
 	"description": "TkStar LuanchPad Framwork Pure",
+	"keywords": ["framework", "launchpad", "tkstarir", "tkstar framework", "php"],
 	"type": "framwork",
 	"license": "MIT",
 	"authors": [
